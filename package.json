@@ -8,7 +8,7 @@
 		"gen": "ts-node --transpile-only src/schema.ts",
 		"prettier-format": "prettier 'src/**/*.ts' --write",
 		"migrate:deploy": "prisma migrate deploy",
-		"build": "prisma generate && yarn run gen && tsc",
+		"build": "prisma generate && npm run gen && tsc",
 		"start": "node dist/src/index.js"
 	},
 	"keywords": [],
